@@ -1,0 +1,43 @@
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+}
+.colorGrupo1{
+   background-color: salmon; 
+}
+
+.colorGrupo2{
+    background-color: lightgreen;
+}
+
+.colorGrupo3{
+    background-color: lightseagreen;
+}
+
+.card {
+    box-shadow: 0px 0px 5px #ccc, 0px 0px 10px #ccc;
+    width: 320px;
+}
+.puntoAmarillo{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: rgb(239, 239, 97);
+}
+.linea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 100%;
+    width: 3px;
+}
+
+#grupo1, #grupo2, #grupo3{
+    margin: 0% 25%;
+    width: 50%;
+    text-align: center;
+}
